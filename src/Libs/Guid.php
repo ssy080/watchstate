@@ -84,7 +84,7 @@ final class Guid implements JsonSerializable, Stringable
             'example' => '(number)',
         ],
         Guid::GUID_KTV => [
-            'pattern' => '/KD(\d+)/i',
+            'pattern' => '/KD(\d+\/\d+\/\d+)/i',
             'example' => '(number)',
         ],
     ];
