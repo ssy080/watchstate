@@ -40,7 +40,7 @@ final class PlexGuid implements iGuid
         'com.plexapp.agents.hama',
         'com.plexapp.agents.ytinforeader',
         'com.plexapp.agents.cmdb',
-        'com.plexapp.agents.sjva_agent',
+        'com.plexapp.agents.sjva_agent_ktv',
     ];
 
     /**
