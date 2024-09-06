@@ -94,6 +94,7 @@ class PlexClient implements iClient
         'tv.plex.agents.series',
         'com.plexapp.agents.sjva_agent_ktv',
         'com.plexapp.agents.sjva_agent_movie',
+        'com.plexapp.agents.sjva_agent_ftv',
     ];
 
     /**
