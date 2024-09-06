@@ -29,6 +29,7 @@ final class Guid implements JsonSerializable, Stringable
     public const string GUID_ANIDB = 'guid_anidb';
     public const string GUID_YOUTUBE = 'guid_youtube';
     public const string GUID_CMDB = 'guid_cmdb';
+    public const string GUID_KTV = 'guid_ktv';
     /**
      * Constant array of supported GUID types.
      *
@@ -45,6 +46,7 @@ final class Guid implements JsonSerializable, Stringable
         Guid::GUID_ANIDB => 'string',
         Guid::GUID_YOUTUBE => 'string',
         Guid::GUID_CMDB => 'string',
+        Guid::GUID_KTV => 'string',
     ];
     /**
      * Constant array for validating GUIDs.
@@ -79,6 +81,10 @@ final class Guid implements JsonSerializable, Stringable
         ],
         Guid::GUID_ANIDB => [
             'pattern' => '/^[0-9\/]+$/i',
+            'example' => '(number)',
+        ],
+        Guid::GUID_KTV => [
+            'pattern' => '/KD(\d+)/i',
             'example' => '(number)',
         ],
     ];
