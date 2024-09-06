@@ -24,6 +24,7 @@ final class PlexGuid implements iGuid
         'anidb' => Guid::GUID_ANIDB,
         'ytinforeader' => Guid::GUID_YOUTUBE,
         'cmdb' => Guid::GUID_CMDB,
+        'ktv' => Guid::GUID_KTV,
     ];
 
     /**
@@ -39,6 +40,7 @@ final class PlexGuid implements iGuid
         'com.plexapp.agents.hama',
         'com.plexapp.agents.ytinforeader',
         'com.plexapp.agents.cmdb',
+        'com.plexapp.agents.sjva_agent',
     ];
 
     /**
